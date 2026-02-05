@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import './LinkGrid.tsx'
 import LinkGrid from "./LinkGrid.tsx";
+import SearchWidget from "./SearchWidget.tsx";
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,6 +12,7 @@ function App() {
   return (
       <>
           <LinkGrid />
+          <SearchWidget />
           <div>
               <a href="https://vite.dev" target="_blank">
                   <img src={viteLogo} className="logo" alt="Vite logo"/>
