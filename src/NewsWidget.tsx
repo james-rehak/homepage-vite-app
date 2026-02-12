@@ -1,7 +1,6 @@
 /**
  * Todo Cache Results
  * */
-import React from "react";
 
 export default function NewsWidget() {
   return (
